@@ -1,0 +1,31 @@
+:root {
+    --navy: #001f3f;
+    --navy-light: #003366;
+    --silver: #C0C0C0;
+    --platinum: #E5E4E2;
+    --white: #ffffff;
+    --wp-green: #25D366;
+}
+
+/* LOGO ÖZEL AYARLARI */
+#site-logo {
+    height: 180px;
+    width: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+#site-logo:hover {
+    transform: scale(1.05);
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    #site-logo {
+        height: 140px;
+    }
+}
